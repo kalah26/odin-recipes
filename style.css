@@ -1,0 +1,47 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(192, 194, 189);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+h1, h3 {
+    color: rgb(68, 139, 124);
+    text-align: center;
+}
+
+.text-style {
+    color: black;
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+}
+
+ol li {
+    list-style-type: upper-roman;
+    list-style-position:inside;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(26, 134, 98);
+    font-size: 24px;
+}
+
+a:hover {
+    color: rgb(132, 25, 194);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+}
