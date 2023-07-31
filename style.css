@@ -1,47 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(192, 194, 189);
-    margin-left: auto;
-    margin-right: auto;
+    line-height: 1.5;
 }
 
-h1 {
-    font-size: 52px;
+.container {
+    width: 80rem;
+    margin: 0 auto;
 }
 
-h1, h3 {
-    color: rgb(68, 139, 124);
+header.title {
     text-align: center;
+    background-color: blue;
+    color: beige;
+    border-radius: 25px 25px 0 0;
 }
 
-.text-style {
-    color: black;
-    text-align: center;
-}
-
-ul li {
-    list-style: none;
-}
-
-ol li {
-    list-style-type: upper-roman;
-    list-style-position:inside;
+.recipe-list {
+   list-style: none;
+   text-align: center;
 }
 
 a {
     text-decoration: none;
-    color: rgb(26, 134, 98);
-    font-size: 24px;
+    color: black;
 }
 
-a:hover {
-    color: rgb(132, 25, 194);
-}
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    height: auto;
+.container.img,
+content {
+    display: inline-block;
 }
